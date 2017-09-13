@@ -14,6 +14,8 @@
 		BF6C64F61F6885C700392E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6C64F41F6885C700392E11 /* Main.storyboard */; };
 		BF6C64F81F6885C700392E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6C64F71F6885C700392E11 /* Assets.xcassets */; };
 		BF6C64FB1F6885C700392E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6C64F91F6885C700392E11 /* LaunchScreen.storyboard */; };
+		BF6C65031F68896C00392E11 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C65021F68896C00392E11 /* Reachability.swift */; };
+		BF6C65051F68899A00392E11 /* SearchBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C65041F68899A00392E11 /* SearchBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BF6C64F71F6885C700392E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6C64FA1F6885C700392E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF6C64FC1F6885C700392E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6C65021F68896C00392E11 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		BF6C65041F68899A00392E11 /* SearchBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				BF6C64F91F6885C700392E11 /* LaunchScreen.storyboard */,
 				BF6C64FC1F6885C700392E11 /* Info.plist */,
 				BF6C64ED1F6885C700392E11 /* BuscadorLibrosCoreData.xcdatamodeld */,
+				BF6C65021F68896C00392E11 /* Reachability.swift */,
+				BF6C65041F68899A00392E11 /* SearchBookViewController.swift */,
 			);
 			path = BuscadorLibrosCoreData;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 				BF6C64EF1F6885C700392E11 /* BuscadorLibrosCoreData.xcdatamodeld in Sources */,
 				BF6C64EC1F6885C700392E11 /* AppDelegate.swift in Sources */,
 				BF6C64F11F6885C700392E11 /* MasterViewController.swift in Sources */,
+				BF6C65031F68896C00392E11 /* Reachability.swift in Sources */,
 				BF6C64F31F6885C700392E11 /* DetailViewController.swift in Sources */,
+				BF6C65051F68899A00392E11 /* SearchBookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
